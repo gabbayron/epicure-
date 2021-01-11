@@ -1,9 +1,7 @@
-.wrapper{
-    margin: 0 160px;
-}
 
 .content{
     text-align: center;
+    margin: 0 160px;
 }
 
 app-card{
