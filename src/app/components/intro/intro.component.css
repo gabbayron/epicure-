@@ -8,7 +8,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Helvetica Neue";
 }
 
 .content{
@@ -29,27 +28,41 @@
   font-style: normal;
   text-align: center;
 }
-
-.Search-Field {
-    width: 511px;
-    height: 48px;
-    margin: 18px 0 0;
-    padding: 9px 73px 8px 20px;
-    object-fit: contain;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.88);
-    border: solid 0.6px black;
+input[type="text"] { 
+  width: 511px;
+  height: 48px;
+  margin: 18px 0 0;
+  object-fit: contain;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  border: solid 0.6px gray;
+  text-align: center;
 }
+
 
 input::placeholder{
-    width: 367px;
-    height: 26px;
-    margin: 2px 0 3px 20px;
-    opacity: 0.53;
-    font-size: 22px;
-    font-weight: 100;
-    letter-spacing: 1.57px;
-    text-align: center;
-    color: var(--black);
+  width: 367px;
+  height: 26px;
+  margin: 2px 0 3px 20px;
+  opacity: 0.53;
+  font-size: 22px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.57px;
+  text-align: center;
+  color: black;
 }
 
+input#search{
+  background: url('../../../assets/search-icon.svg');
+    background-size:31px 31px;
+    background-position: 4.1%;
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+input#search:focus {
+  background-image:none;
+  text-indent: 0;
+  }
