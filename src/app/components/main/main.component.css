@@ -1,0 +1,48 @@
+.wrapper{
+    margin: 0 160px;
+}
+
+.content{
+    text-align: center;
+}
+
+app-card{
+    width: 360px;
+  height: 357px;
+}
+
+/* .cards{
+    width: 1102px;
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+.all-restaurants{
+  height: 35px;
+  font-size: 30px;
+  margin-top: 31px;
+  text-align: right;
+  margin-right: 1.6%;
+}
+
+.signature-dish{
+  width: 100%;
+  height: 30px;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 87px;
+  text-align: center;
+}
+
+.titles{
+  font-size: 30px;
+  justify-content: center;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title{
+  margin-bottom: 23px;
+  margin-right: 5%;
+}

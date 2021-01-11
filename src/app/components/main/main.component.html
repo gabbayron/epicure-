@@ -1,1 +1,23 @@
-<p>main works!</p>
+<div class="wrapper">
+    <div class="content">
+        <h2>THE POPULAR RESTAURANTS IN EPICURE :</h2>
+    </div>
+    <div fxLayout="row" fxLayoutGap="11px" class="cards">
+        <app-card [restaurant]="'Claro'" [chef]="'Ran Shmueli'" [img_src]='"../../../assets/claro.jpg"'></app-card>
+        <app-card [img_src]='"../../../assets/group-11.jpg"'></app-card>
+        <app-card [img_src]='"../../../assets/group-14.jpg"'></app-card>
+    </div>
+    <p class="all-restaurants">All Restaurants <img src="assets/all-restaurants-arrows.svg"></p>
+    <p class="signature-dish">SIGNATURE DISH OF :</p>
+    <div class="titles">
+        <p class="title">Tiger Lilly</p>
+        <p class="title">Kab Kem</p>
+        <p class="title">Popina</p>
+    </div>
+    <div style="margin-bottom: 87px;" class="cards" fxLayout="row" fxLayoutGap="11px">
+        <img src="assets/dish-symbol.jpg" alt="">
+        <img src="assets/dish-symbol-copy-3.jpg" alt="">
+        <img src="assets/dish-symbol-copy-4.jpg" alt="">
+    </div>
+    <app-icon-meaning></app-icon-meaning>
+</div>

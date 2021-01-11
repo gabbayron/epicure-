@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { MainComponent } from './components/main/main.component';
+import { CardComponent } from './components/card/card.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { IconMeaningComponent } from './components/icon-meaning/icon-meaning.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IntroComponent,
-    MainComponent
+    MainComponent,
+    CardComponent,
+    IconMeaningComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

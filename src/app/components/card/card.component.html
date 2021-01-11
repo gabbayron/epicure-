@@ -1,0 +1,8 @@
+<div class="card" style="display: inline-block;" *ngIf='restaurant'>
+    <img src={{img_src}} alt="">
+    <div class="details">
+        <p class="restaurant">{{restaurant}}</p>
+        <p class="chef">{{chef}}</p>
+    </div>
+</div>
+<img *ngIf='!restaurant' src={{img_src}} alt="">
