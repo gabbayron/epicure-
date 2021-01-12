@@ -12,6 +12,8 @@ import { IconMeaningComponent } from './components/icon-meaning/icon-meaning.com
 import { ChefOfTheWeekComponent } from './components/chef-of-the-week/chef-of-the-week.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DishDialogComponent } from './components/dish-dialog/dish-dialog.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { FooterComponent } from './components/footer/footer.component';
     IconMeaningComponent,
     ChefOfTheWeekComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    DishDialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

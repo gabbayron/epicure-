@@ -10,7 +10,4 @@ body {
      box-sizing: border-box;
    }
 
-   @font-face {
-     font-family: "HelveticaNeue";
-     src:  url('/src/assets/fonts/HelveticaNeue\ Thin.ttf') format("truetype");
- }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

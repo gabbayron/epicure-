@@ -24,6 +24,7 @@
     margin-top: 0;
     text-align: left;
     margin-right: 10px;
+    line-height: 1.2;
 }
 
 .name{
@@ -31,9 +32,9 @@
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 40px;
   position: absolute;
-  top: 252px;
-  left: 37px;
-  width: 372px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
    display: flex;
   align-items: center;
   justify-content: center;
@@ -58,8 +59,15 @@
   width: 100%;
   align-items: center;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .card{
   margin: 0 10px
+}
+
+.pic{
+  background: url('../../../assets/untitled-1.jpg');
+  width: 338px;
+  position: relative;
 }
