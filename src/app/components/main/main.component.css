@@ -41,9 +41,7 @@ app-card{
   flex-direction: column;
 }
 
-.card:hover{
-  cursor: pointer;
-}
+
 
 .title{
   margin-bottom: 23px;

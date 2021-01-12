@@ -14,6 +14,7 @@ import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DishDialogComponent } from './components/dish-dialog/dish-dialog.component';
+import { MaterialModule } from './modules/material/material.module';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,14 @@ import { DishDialogComponent } from './components/dish-dialog/dish-dialog.compon
     ChefOfTheWeekComponent,
     AboutComponent,
     FooterComponent,
-    DishDialogComponent
+    DishDialogComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FlexLayoutModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

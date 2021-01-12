@@ -1,4 +1,4 @@
-<div class="card" style="display: inline-block;" *ngIf='restaurant'>
+<div class="card" (click)='openDialog()' style="display: inline-block;" *ngIf='restaurant'>
     <img src={{img_src}} alt="">
     <div class="details">
         <p class="restaurant">{{restaurant}}</p>
