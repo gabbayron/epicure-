@@ -1,0 +1,46 @@
+.wrapper{
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    height: 35px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.content{
+    width: 35%;
+    margin: 0px 15%;
+}
+
+.about{
+    height: 269px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+img{
+    background-color: #fafafa;
+}
+
+.downloads{
+    width: 40%;
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+}
+.download{
+    height: 52.8px;
+    padding: 8px 11.7px 7.4px 10.5px;
+    border-radius: 9.6px;
+    border: solid 0.6px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 38%;
+    margin: 20px 8px;
+}
