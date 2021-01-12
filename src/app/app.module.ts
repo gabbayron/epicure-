@@ -11,6 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { IconMeaningComponent } from './components/icon-meaning/icon-meaning.component';
 import { ChefOfTheWeekComponent } from './components/chef-of-the-week/chef-of-the-week.component';
 import { AboutComponent } from './components/about/about.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AboutComponent } from './components/about/about.component';
     CardComponent,
     IconMeaningComponent,
     ChefOfTheWeekComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
