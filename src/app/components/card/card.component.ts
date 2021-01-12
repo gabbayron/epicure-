@@ -25,7 +25,8 @@ export class CardComponent implements OnInit {
         dish_name: this.restaurant,
         description: this.chef,
         price: this.price
-      }
+      },
+      height: "1080px"
     })
   }
 

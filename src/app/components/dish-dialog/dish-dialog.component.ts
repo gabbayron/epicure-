@@ -20,8 +20,16 @@ export class DishDialogComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: dialogData) { }
 
+  quantity: number = 1
+
+  increment() {
+    this.quantity += 1
+  }
+  decrement() {
+    this.quantity -= 1
+  }
+
   ngOnInit(): void {
-    console.log(this.data)
   }
 
 }
