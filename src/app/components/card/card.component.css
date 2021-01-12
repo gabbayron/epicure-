@@ -1,28 +1,42 @@
-img{
-    margin: 0 10px 0 0;
-}
 
 .card{
     width: 360px;
-    height: 357px;
-    object-fit: contain;
     background-color: #f9f4ea;
 }
 
 .details{
-    width: 360px;
     background-color: #f9f4ea;
     text-align: center;
 }
 
 .restaurant{
-    height: 47px;
     font-size: 40px;
-    margin: 28px 0 0 0;
+    margin:25px 0 0 0 ;
 }
 .chef{
-  height: 29px;
   font-size: 25px;
   font-weight: 100;
-  margin: 0 0 0 0;
+  height: 120px;
+  margin:0 0 0 0;
 }
+
+.line{
+     width: 112px;
+  height: 1px;
+  border: solid 0.5px #979797;
+  margin: 0px 10px;
+ }
+
+.priceContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f4ea;
+    height: 110px;
+   justify-content: flex-end;
+    
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }

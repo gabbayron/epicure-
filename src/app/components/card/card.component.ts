@@ -9,6 +9,8 @@ export class CardComponent implements OnInit {
   @Input() img_src: string
   @Input() restaurant: string
   @Input() chef: string
+  @Input() icon: string
+  @Input() price: string
   constructor() { }
 
   ngOnInit(): void {

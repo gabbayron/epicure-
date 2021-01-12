@@ -1,19 +1,23 @@
-
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .content{
     text-align: center;
     margin: 0 160px;
-}
+    width: 80%;
+  }
 
 app-card{
-    width: 360px;
-  height: 357px;
+  background-color: #f9f4ea;
+    height: 100%;
 }
-
-/* .cards{
-    width: 1102px;
-    display: flex;
-    justify-content: space-evenly;
-} */
+.cards{
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 
 .all-restaurants{
   height: 35px;
@@ -32,15 +36,19 @@ app-card{
   text-align: center;
 }
 
-.titles{
-  font-size: 30px;
-  justify-content: center;
-  font-weight: 900;
+.card{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .title{
   margin-bottom: 23px;
   margin-right: 5%;
+  height: 35px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+app-icon-meaning{
+  width: 100%;
 }

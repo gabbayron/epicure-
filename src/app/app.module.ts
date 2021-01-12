@@ -9,6 +9,8 @@ import { MainComponent } from './components/main/main.component';
 import { CardComponent } from './components/card/card.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { IconMeaningComponent } from './components/icon-meaning/icon-meaning.component';
+import { ChefOfTheWeekComponent } from './components/chef-of-the-week/chef-of-the-week.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { IconMeaningComponent } from './components/icon-meaning/icon-meaning.com
     IntroComponent,
     MainComponent,
     CardComponent,
-    IconMeaningComponent
+    IconMeaningComponent,
+    ChefOfTheWeekComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

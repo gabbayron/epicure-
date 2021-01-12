@@ -1,10 +1,10 @@
 .wrapper{
-    width: 1440px;
+    width: 100%;
     height: 53px;
     margin: 0 0 8px;
     padding: 14px 123px 5px;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
 
 .Logo {
@@ -23,7 +23,7 @@
 }
 
 .Restaurants {
-    width: 110px;
+    width: 7%;
     height: 21px;
     margin: 7px 28px 6px 0px;
     font-size: 18px;
@@ -31,7 +31,7 @@
   }
 
   .Chefs {
-    width: 54px;
+    width: 3%;
     height: 21px;
     margin: 7px 292px 6px 0;
     font-size: 18px;
@@ -39,7 +39,8 @@
   }
 
   input[type="text"] {
-    width: 415px;
+    width: 25%;
+    min-width: 362px;
     height: 34px;
     margin: 0;
     padding: 7px 13px 5px 16px;
