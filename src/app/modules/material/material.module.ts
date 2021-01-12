@@ -4,12 +4,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
 
 const materialModules = [
   MatButtonModule,
   MatDialogModule,
   MatCheckboxModule,
-  MatRadioModule
+  MatRadioModule,
+  MatAutocompleteModule
 ]
 
 @NgModule({
