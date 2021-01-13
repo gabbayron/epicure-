@@ -115,6 +115,9 @@
   height: 240px;
   width: 90%;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .mobile .description {
@@ -178,7 +181,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 0 0 15px;
-  height: 360px;
   width: 80%;
 }
 /*# sourceMappingURL=chef-of-the-week.component.css.map */
