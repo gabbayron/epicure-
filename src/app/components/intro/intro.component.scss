@@ -22,8 +22,8 @@
         -ms-animation: fadein 2s; 
         -o-animation: fadein 2s; 
         animation: fadein 2s;
-        width: 781px;
         height: 222px;
+        width: 60%;
         background-color: rgba(255, 255, 255, 0.88);
         display: flex;
         flex-direction: column;
@@ -87,15 +87,13 @@
 .mobile{
     .wrapper{
         width: 100%;
-        height: 269px;
         box-sizing: border-box;
+        height: 270px;
         background: url('../../../assets/hero-picture.jpg') no-repeat;
-        background-size: 100%;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
-        
-      
         
         @keyframes fadein {
           from { opacity: 0; }
@@ -108,8 +106,8 @@
           -ms-animation: fadein 2s; 
           -o-animation: fadein 2s; 
           animation: fadein 2s;
-          width: 781px;
-          height: 222px;
+          height: 125px;
+          width: 90%;
           background-color: rgba(255, 255, 255, 0.88);
           display: flex;
           flex-direction: column;
@@ -118,46 +116,24 @@
           }
       
           .description{
-              width: 437px;
-          height: 73px;
-          margin: 0 36px 18px 38px;
-          font-size: 35px;
+          width: 80%;
+          font-size: 16px;
           font-weight: 100;
-          font-stretch: normal;
-          font-style: normal;
+          margin: 0%;
           text-align: center;
-          line-height: 1;
           }
           input[type="text"] { 
-          width: 511px;
           height: 48px;
-          margin: 18px 0 0;
-          object-fit: contain;
+          width: 270px;
           border-radius: 4px;
           background-color: rgba(255, 255, 255, 0);
           border: solid 0.6px gray;
           text-align: center;
           }
       
-      
-          input::placeholder{
-          width: 367px;
-          height: 26px;
-          margin: 2px 0 3px 20px;
-          opacity: 0.53;
-          font-size: 22px;
-          font-weight: 100;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: normal;
-          letter-spacing: 1.57px;
-          text-align: center;
-          color: black;
-          }
-      
           input#search{
           background: url('../../../assets/search-icon.svg');
-              background-size:31px 31px;
+              background-size:13px 13px;
               background-position: 4.1%;
               background-repeat: no-repeat;
               text-indent: 20px;
