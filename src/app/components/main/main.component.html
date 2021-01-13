@@ -1,6 +1,10 @@
 <div ngClass.lt-md="mobile" ngClass.gt-sm="desktop">
     <div class="content">
-        <p style="font-size: 30px; font-weight: 100; margin: 140px 0 42px 0;">THE POPULAR RESTAURANTS IN EPICURE :</p>
+        <div class="nav-buttons" fxHide.gt-sm>
+            <div class="button">Chefs</div>
+            <div class="button">Restaurants</div>
+        </div>
+        <p class="popular-rest">THE POPULAR RESTAURANTS IN EPICURE :</p>
         <swiper [config]='config' fxLayout='row wrap'>
             <app-card [restaurant]="'Claro'" [chef]="'Ran Shmueli'" [img_src]='"../../../assets/claro.jpg"'>
             </app-card>
@@ -9,8 +13,8 @@
             <app-card [restaurant]='"Tiger Lilly"' [chef]="'Yanir Green'" [img_src]='"../../../assets/tiger-lili.jpg"'>
             </app-card>
         </swiper>
-        <p class="all-restaurants">All Restaurants <img src="assets/all-restaurants-arrows.svg"></p>
-        <p class="signature-dish">SIGNATURE DISH OF :</p>
+        <p class="all-restaurants"fxHide.lt-md>All Restaurants <img src="assets/all-restaurants-arrows.svg"></p>
+        <p class="signature-dish" >SIGNATURE DISH OF :</p>
             <swiper  [config]='config'>
                 <div class="card">
                     <p class="title">Tiger Lilly</p>
