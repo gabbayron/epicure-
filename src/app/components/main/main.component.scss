@@ -12,9 +12,8 @@
       margin: 0 160px;
       width: 80%;
     }
-  
+
   app-card{
-    @extend %backgroundColor;
       height: 100%;
   }
   .cards{
@@ -27,7 +26,6 @@
     font-size: 30px;
     margin-top: 31px;
     text-align: right;
-    margin-right: 1.6%;
   }
   
   .signature-dish{
@@ -70,7 +68,6 @@
     }
   
   app-card{
-    
       height: 100%;
   }
   .cards{

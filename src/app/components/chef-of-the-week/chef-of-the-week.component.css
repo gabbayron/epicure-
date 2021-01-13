@@ -41,13 +41,7 @@
 }
 
 
-.restaurants{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  width: 100%;
-  margin-left: 5%;
-}
+
 
 .chefs-restaurant{
   height: 30px;

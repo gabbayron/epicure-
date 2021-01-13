@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SwiperOptions } from 'swiper';
 
 @Component({
   selector: 'app-chef-of-the-week',
@@ -9,7 +10,12 @@ export class ChefOfTheWeekComponent implements OnInit {
 
   constructor() { }
 
+  config: SwiperOptions = {
+  }
+
   ngOnInit(): void {
+    window.innerWidth > 1160 ? this.config.slidesPerView = 2 : this.config.slidesPerView = 1
+
   }
 
 }
