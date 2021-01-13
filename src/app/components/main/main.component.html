@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div ngClass.lt-md="mobile" ngClass.gt-sm="desktop">
     <div class="content">
         <p style="font-size: 30px; font-weight: 100; margin: 140px 0 42px 0;">THE POPULAR RESTAURANTS IN EPICURE :</p>
         <div fxLayout="row" class="cards">
@@ -24,7 +24,7 @@
                     [chef]='"Polenta fingers, veal cheek, magic chili cured lemon cream, yellow laksa"' [price]="'88'">
                 </app-card>
             </div>
-            <div class="card">
+            <div class="card" >
                 <p class="title">Popina</p>
                 <app-card [restaurant]='"Smoked Pizza"'
                     [chef]="'Basil dough, cashew butter, demi-glace, bison & radish'"

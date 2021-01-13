@@ -1,0 +1,10 @@
+%backgroundColor  { background-color : #f9f4ea}
+%lightFont { font-weight: 100;}
+
+@mixin baseTitle($userHeight) {
+margin-bottom: 23px;
+margin-right: 5%;
+height: $userHeight;
+font-size: 30px;
+font-weight: 900;
+}
