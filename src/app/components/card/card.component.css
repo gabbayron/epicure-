@@ -1,3 +1,7 @@
+.mobile .card, .mobile .details, .mobile .priceContent {
+  background-color: #f7e0b2;
+}
+
 .desktop .card {
   width: 360px;
   background-color: #f9f4ea;
@@ -61,7 +65,6 @@
 
 .mobile .card {
   width: 100%;
-  background-color: #f9f4ea;
 }
 
 .mobile .card img {
@@ -73,7 +76,6 @@
 }
 
 .mobile .details {
-  background-color: #f9f4ea;
   text-align: center;
 }
 
@@ -86,6 +88,7 @@
 .mobile .chef {
   font-size: 17.3px;
   font-weight: 100;
+  padding: 0px 7px;
   height: 70px;
   margin: 30px 0 0 0;
 }
@@ -105,12 +108,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #f9f4ea;
-  height: 60px;
   margin-top: 20px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  height: 70px;
+}
+
+.mobile .priceContent img {
+  margin: 0;
+  padding: 0px 0 10px 0px;
 }
 
 .mobile .price {

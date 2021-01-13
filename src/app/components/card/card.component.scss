@@ -1,3 +1,5 @@
+@import '../../../assets/base.styles.scss';
+
 .desktop{
     .card{
         width: 360px;
@@ -54,7 +56,7 @@
 .mobile{
     .card{
     width: 100%;
-    background-color: #f9f4ea;
+    @extend %mobileBackgroundColor;
     img{
         width: 100%;
     }
@@ -65,7 +67,7 @@
   }
   
 .details{
-    background-color: #f9f4ea;
+    @extend %mobileBackgroundColor;
     text-align: center;
 }
 
@@ -77,6 +79,7 @@
 .chef{
     font-size: 17.3px;
     font-weight: 100;
+    padding: 0px 7px;
   height: 70px;
   margin:30px 0 0 0;
 }
@@ -91,10 +94,15 @@
 .priceContent{
     display: flex;
     flex-direction: column;
-    background-color: #f9f4ea;
-    height: 60px;
+    @extend %mobileBackgroundColor;
     margin-top: 20px;
    justify-content: flex-end;
+   height: 70px;
+
+   img{
+       margin: 0;
+       padding: 0px 0 10px 0px;
+}
     
 }
 .price{
